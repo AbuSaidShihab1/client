@@ -1,0 +1,93 @@
+.contact-main{
+    width: 100%;
+    height: auto;
+    padding: 40px 100px;
+}
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-left{
+   width: 40%;
+}
+.contact-right{
+    width: 50%;
+}
+.contact-left h1{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.address-box{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+.address-box svg{
+    font-size: 25px;
+}
+.address-box p{
+    font-size: 20px;
+}
+.contact-right form{
+
+}
+.inp-field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.contact-left .firstparagraph{
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.inp-field label{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.inp-field input{
+    width: 100%;
+    height: 55px;
+    padding: 17px;
+    font-size: 16px;
+    background: none;
+    border: 1px solid #dcdde1;
+    outline-color: #fbc531;
+}
+.inp-field textarea{
+    width: 100%;
+    height: 200px;
+    padding: 17px;
+    background: none;
+    font-size: 16px;
+    border: 1px solid #dcdde1;
+    outline-color: #fbc531;
+}
+.contact-right form button{
+    width: 200px;
+    height: 60px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    background-color: #fbc531;
+    color: white;
+}
+
+@media(max-width:768px){
+    .contact-main{
+        padding: 20px 40px;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .contact-box{
+        width: 100%;
+    }
+}

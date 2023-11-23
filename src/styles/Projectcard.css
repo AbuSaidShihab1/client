@@ -1,0 +1,70 @@
+.projectcard-main{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.card-box{
+   width: 30%;
+   box-shadow: 0px 10px 51px rgba(0, 0, 0, 0.07);
+   border-radius: 5px;
+   overflow: hidden;
+}
+.card-box img{
+    width: 100%;
+    height: 300px;
+}
+.card-text{
+    padding-top: 15px;
+    padding: 20px 15px;
+}
+.card-text h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.tagbox{
+    padding: 6px 14px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.tagbox span{
+    font-size: 14px;
+    color: #7f8c8d;
+}
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.web-tag{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.card-info button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    background-color: #fbc531;
+    color: white;
+}
+
+@media(max-width:768px){
+    .projectcard-main{
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .card-box{
+        width: 100%;
+    }
+}

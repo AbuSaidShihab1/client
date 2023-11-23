@@ -1,0 +1,90 @@
+.about{
+    width: 100%;
+    height: auto;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.aboutbox{
+    width: 100%;
+}
+.about-img img{
+    width: 100%;
+}
+.about-info{
+
+}
+.aboutbox-text{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.side-quote{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+}
+.side-text{
+    font-size: 40px;
+    font-weight: 500;
+    color:black;
+    padding: 20px;
+}
+.about-info p{
+    font-size: 17px;
+    color: black;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.about-info button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    background-color:#fbc531;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.about-info button a{
+    text-decoration: none;
+    color: white;
+}
+.about-info svg{
+    font-size: 25px;
+    color: white;
+}
+
+@media(max-width:768px){
+    .about{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 20px 40px;
+        gap: 40px;
+    }
+    .aboutbox{
+        width: 100%;
+    }
+    .about-img img{
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    .side-text{
+        font-size: 30px;
+    }
+    .side-quote{
+          width: 70px;
+    }
+    .about-info button{
+        font-size: 16px;
+    }
+}

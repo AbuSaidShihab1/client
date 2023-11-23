@@ -1,0 +1,131 @@
+.about-second{
+    width: 100%;
+    padding: 20px 100px;
+}
+.about-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.aboutbox-textsecond{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.aboutbox{
+    width: 40%;
+    height: auto;
+}
+.aboutleft h3{
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 30px;
+}
+.aboutleft p{
+    font-size: 17px;
+    line-height: 25px;
+    color:black;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.aboutleft button{
+    width: 150px;
+    height: 55px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:#fbc531;
+    border: none;
+    transition: 0.3s;
+}
+.aboutleft button:hover{
+    background: none;
+    border: 1px solid #fbc531;
+}
+.aboutleft h4{
+    color: black;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.aboutleft h4 span{
+    color: #fbc531;
+}
+.aboutright h1{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.skbox{
+    width: 100%;
+    
+}
+.subskbox{
+    width: 100%;
+    height: 15px;
+    background-color: #353b48;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 2px #2187e7b3;
+}
+.aboutleft p{
+    margin-bottom: 25px;
+}
+#sk1{
+    width: 90%;
+}
+#sk2{
+    width: 85%;
+}
+#sk3{
+    width: 80%;
+}
+#sk4{
+    width: 70%;
+}
+#sk5{
+    width: 80%;
+}
+#sk6{
+    width: 80%;
+}
+.smskbox{
+    background-color: var(--main-color);
+    width: 70%;
+    height: 100%;
+    border-radius:0px 10px 10px 0px;
+
+}
+.aktext{
+    color: black;
+    margin:15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:768px){
+    .about-second{
+        padding: 20px 40px;
+    }
+    .about{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 30px 40px;
+    }
+    .aboutbox{
+        width: 100%;
+    }
+    .about-main{
+       flex-direction: column;
+       gap: 30px;
+    }
+}
